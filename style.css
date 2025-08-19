@@ -109,7 +109,7 @@ section{
 
 
 .members{
-    font-size: 140%;
+    font-size: 120%;
     position: fixed;
     background-color: #ff912a;
     width: 40%;
@@ -170,4 +170,5 @@ section{
         font-size: 100%;
     }
     
+
 }
