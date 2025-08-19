@@ -7,6 +7,11 @@ body{
 
 }
 header{
+    img{
+        border-radius: 25px;
+        width: 8%;
+    }
+    font-size: 100%;
     background-color:#ff8009;
     margin:0;
     padding: 10px;
@@ -98,6 +103,7 @@ section{
 
 
 .members{
+    font-size: 140%;
     position: fixed;
     background-color: #ff912a;
     width: 40%;
@@ -135,6 +141,13 @@ section{
     opacity: 1;
 }
 @media (max-width:720px) {
+    header{
+        font-size: 50%;
+        img{
+            width: 15%;
+        }
+    }
+
     section{
         margin:10px 10%;
         font-size: 100%;
@@ -143,4 +156,8 @@ section{
             flex-wrap: wrap;
         }
     }
+    .members{
+        font-size: 100%;
+    }
+    
 }
