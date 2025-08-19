@@ -7,10 +7,7 @@ body{
 
 }
 header{
-    img{
-        border-radius: 25px;
-        width: 8%;
-    }
+    
     font-size: 100%;
     background-color:#ff8009;
     margin:0;
@@ -37,6 +34,10 @@ header{
     }
     .btn:hover{
         background-color: #ffbc7c;
+    }
+    img{
+        border-radius: 25px;
+        width: 8%;
     }
 }
 section{
@@ -99,6 +100,11 @@ section{
         padding: 10px;
         width: 100%;
     }
+    .intro{
+        display: flex;
+        justify-content: space-between;
+        gap: 30px;
+    }
 }
 
 
@@ -154,6 +160,10 @@ section{
 
         .compare{
             flex-wrap: wrap;
+        }
+        .intro{
+            flex-direction: column;
+            justify-content: center;
         }
     }
     .members{
