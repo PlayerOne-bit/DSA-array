@@ -90,6 +90,7 @@ section{
         width: 90%;
     }
     div input{
+        width:100%;
         font-size: 1rem;
         padding: 10px;
     }
@@ -142,4 +143,5 @@ section{
             flex-wrap: wrap;
         }
     }
+
 }
