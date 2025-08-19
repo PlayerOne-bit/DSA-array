@@ -28,7 +28,7 @@ function submit(){
     const essay1=document.querySelector(".essay1").value;
     const essay2=document.querySelector(".essay2").value;
     congrats.innerHTML=`Congrats! ${(name==="")?"Guest":name} from ${(course==="")?"Nowhere":course}!`;
-    result.innerHTML=`You got a score of <b style='font-size:10em; color:lightgreen;'>${score}/10</b><br>But quiz checkers will still check your answers from essay:<br>11-12. ${(essay1==="")?"It's blank LOLOLOLOLOL!!!!!":essay1}<br>13-15. ${(essay2==="")?"Wow you didn't even tried to do your best ha?":essay2}`;
+    result.innerHTML=`You got a score of <b style='font-size:1000%; color:lightgreen;'>${score}/10</b><br>But quiz checkers will still check your answers from essay:<br>11-12. ${(essay1==="")?"It's blank LOLOLOLOLOL!!!!!":essay1}<br>13-15. ${(essay2==="")?"Wow you didn't even tried to do your best ha?":essay2}`;
 
 
 }
